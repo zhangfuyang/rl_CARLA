@@ -3,7 +3,12 @@ rl-CARLA
 ## still working on!!!
 Welcome to my repo! My experiment environment is Ubuntu16.04, python3.5 and tensorflow1.12.0. If you have any issue about the code, please don't hesitate to contact me.
 
+# Vanilla Version
+The basic idea is using Raw Image as state spaces to train DDPG Agent. The network architecture is quite simple, if you want to know more, you can check [here](https://github.com/zhangfuyang/rl_CARLA/blob/master/src/network/ddpg_network.py). In order to evaluate the performance of the RL method, we first used supervised learning to train a network as baseline. Then we investigate the performance of RL methods (DDPG), both with and without pretraining.
 ## Demo
+### imitation
+![image](./assets/imitation1.gif)
+
 ![image](./assets/avoid.gif)    ![image](./assets/straight.gif) ![image](./assets/turn.gif)
 
 ## Installation
