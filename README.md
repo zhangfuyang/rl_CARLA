@@ -7,9 +7,14 @@ Welcome to my repo! My experiment environment is Ubuntu16.04, python3.5 and tens
 The basic idea is using Raw Image as state spaces to train DDPG Agent. The network architecture is quite simple, if you want to know more, you can check [here](https://github.com/zhangfuyang/rl_CARLA/blob/master/src/network/ddpg_network.py). In order to evaluate the performance of the RL method, we first used supervised learning to train a network as baseline. Then we investigate the performance of RL methods (DDPG), both with and without pretraining.
 ## Demo
 ### imitation
-![image](./assets/imitation1.gif)
+<img src="./assets/imitation1.gif" width="200"/>   <img src="./assets/imitation2.gif" width="200"/>
 
+### DDPG
 ![image](./assets/avoid.gif)    ![image](./assets/straight.gif) ![image](./assets/turn.gif)
+
+## Result
+<img src="./assets/result1.gif" width="200"/> <img src="./assets/result2.gif" width="200"/>
+
 
 ## Installation
 
