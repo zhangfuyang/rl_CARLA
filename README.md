@@ -13,7 +13,10 @@ The basic idea is using Raw Image as state spaces to train DDPG Agent. The netwo
 ![image](./assets/avoid.gif)    ![image](./assets/straight.gif) ![image](./assets/turn.gif)
 
 ## Result
-<img src="./assets/result1.gif" width="200"/> <img src="./assets/result2.gif" width="200"/>
+<img src="./assets/result1.png" width="300"/>       <img src="./assets/result2.png" width="300"/>
+
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Town1(Train) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Town2(Test)   
 
 
 ## Installation
